@@ -4,24 +4,25 @@
 	margin:0;
 	outline:0;
 	text-decoration:none;
+	background:#414f80;
 
 }
 
 header{
 	width:100%;
-	height:20px;
-	font:sans-serif;
+	height:30px;
 	margin:auto;
-	font:small-caption;
+	font:caption;
 
 	display:flex;
 	align-items:center;
-	justify-content:center;	
+	justify-content:center;
+	background:#414f80;	
 }
 nav
 {
 	width:350px;
-	height:50px;
+	height:10px;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -66,7 +67,7 @@ nav
 	transform:scaleX(1);
 }
 div{border: 3px solid #FFFFFF;
-	box-shadow: 0px 0px 20px green, inset 0px 0px 2px #F60BFD;
+	box-shadow: 0px 0px 20px purple, inset 0px 0px 2px #F60BFD;
 	border-radius: 9px;
 }
 .twoscreen div:hover 
@@ -78,7 +79,7 @@ div{border: 3px solid #FFFFFF;
 	width:100px;
 	height:100px;
 	border-radius:7px;
-	background:#69ff00d6;
+	background:blue;
 
 	border: 5px solid #ff008ec7;
 	box-shadow:0px 0px 10px;

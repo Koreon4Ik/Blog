@@ -3,11 +3,11 @@
 <head >
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 	<title></title>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
 <body>
 	<header>
-		<a href=""><img src="лого.png" width="50" height="24" alt="ФОтка"></a>
 		<nav>
 			<a href="">Главная</a>
 			<a href="">Библиотека</a>
@@ -43,20 +43,14 @@
 		<div id="hh" class="maintext">
 			<h1>h</h1>
 		</div>
-		</div>
+		<style media="one">#ck {bacckground:red;}</style>
+		<div id="ck">sdfghjklkjhgf</div>
 		<script type="text/javascript">
-			var a=3;
-			var c=7.23456776543;
-			var b="hello"
+			$(function(){
+				$('#ck').slideUp(2000).slideDown(2000)
 
-			var summ=a+c;
 
-			var element = document.getElementById("hh");
-			element.prepend("");
-			element.append("");
-
-		console.log(summ)
-
+			});
 		</script>
 	</main>
 	<footer>
